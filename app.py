@@ -27,7 +27,7 @@ if st.button("Calculate BMI"):
     else:
         st.error("Obese  — Health risk, consult a doctor.")
 
-    # Show Ideal weight range
+
     min_wt = 18.5 * (height_m ** 2)
     max_wt = 24.9 * (height_m ** 2)
-    st.write(f"✅ For your height, the ideal weight range is *{min_wt:.1f} kg - {max_wt:.1f} kg*.")
+    st.write(f"For your height, the ideal weight range is *{min_wt:.1f} kg - {max_wt:.1f} kg*.")
